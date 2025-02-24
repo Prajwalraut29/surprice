@@ -18,7 +18,7 @@ function App() {
     <div style={containerStyle}>
       <button onClick={openModal} style={buttonStyle}>
         <GiPartyPopper size={24} style={{ marginRight: "8px" }} />
-        Celebrate!
+        Surprice!
       </button>
       {showModal && <FullScreenModal onClose={closeModal} />}
     </div>
